@@ -17,3 +17,15 @@ line-height: 24px;
 letter-spacing: 0%;
 color: #12100CB2;
 }
+.navbar-button{
+    width: 80px;
+height: 32px;
+border-radius: 12px;
+background-color: #12100C;
+color:white;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
