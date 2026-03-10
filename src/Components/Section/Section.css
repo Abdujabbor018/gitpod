@@ -1,0 +1,60 @@
+.section-top-h1{
+font-weight: 700;
+font-size: 54px;
+line-height: 63.72px;
+letter-spacing: 0%;
+text-align: center;
+color: #12100C;
+}
+.section-top-h2{
+font-weight: 400;
+font-size: 54px;
+line-height: 63.72px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: line-through;
+color: #999795;
+}
+.section-top{
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+.section-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-left-h1{
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0%;
+color: #12100C;
+}
+.section-left-info{
+font-weight: 400;
+font-size: 24px;
+line-height: 31.92px;
+letter-spacing: 0%;
+color: #12100CB2;
+}
+.section-left-btn{
+    width: 126px;
+height: 26px;
+opacity: 1;
+top: 7px;
+left: 18px;
+background-color: #FFAE33;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+color: #12100C;
+border-radius: 10.5px;
+border: none;
+
+}
+.pink{
+    background-color: #FFB0AE;
+}
