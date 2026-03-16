@@ -1,6 +1,8 @@
 import React from 'react'
 import Img from './img/Rectangle (2).png'
 import './Design.css'
+import Btn1 from './img/Frame (3).png'
+import Btn2 from './img/Frame (4).png'
 const Design = () => {
   return (
     <>
@@ -16,6 +18,10 @@ const Design = () => {
               smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes  <br />
               all source code and never stores it on insecure machines and networks.
             </p>
+            <div className="design-buttons">
+              <img src={Btn1} alt="" className="design-button" />
+              <img src={Btn2} alt="" className="design-button" />
+            </div>
           </div>
         </div>
       </div>
