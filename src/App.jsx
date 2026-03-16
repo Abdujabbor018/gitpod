@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Header from './Components/Header/Header'
 import Section from './Components/Section/Section'
 import Design from './Components/Design/Design'
+import Users from './Components/Users/Users'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
     <Header />
     <Section />
     <Design />
+    <Users />
     </>
   )
 }
