@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './Users.css'
+import Logos from './img/Frame (5).png'
 const testimonials = [
   {
     id: 1,
@@ -44,8 +45,7 @@ const INTERVAL_MS = 3000
 
 const Users = () => {
   const [current, setCurrent] = useState(0)
-  const intervalRef = useRef<NodeJS.Timeout | null>(null)
-
+const intervalRef = useRef(null)  // jsx uchun
   const total = testimonials.length
 
   const startInterval = () => {
@@ -89,7 +89,7 @@ const Users = () => {
         <div className="users-container">
           <div className="users-header">
             <h1 className="users-text">
-              Used by 400,000+<br />developers.
+              Used by 400,000+ developers.
             </h1>
             <div className="slider-controls">
               <button className="slider-btn" onClick={handlePrev} aria-label="Previous">
@@ -137,6 +137,7 @@ const Users = () => {
           </div>
         </div>
       </div>
+      <img src={Logos   } alt="" className="logos" />
 </div>
     </>
   )

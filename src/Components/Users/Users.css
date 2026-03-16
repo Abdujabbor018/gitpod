@@ -1,178 +1,178 @@
  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
 
-        .users-section {
-          background: #f7f5f2;
-          padding: 80px 0 100px;
-          font-family: 'DM Sans', sans-serif;
-        }   
+ .users-section {
+     background: #f7f5f2;
+     padding: 80px 0 100px;
+ }
 
-        .users-header {
-          display: flex;
-          align-items: flex-end;
-          justify-content: space-between;
-          margin-bottom: 56px;
-          flex-wrap: wrap;
-          gap: 24px;
-        }
+ .users-header {
+     display: flex;
+     align-items: flex-end;
+     justify-content: space-between;
+     margin-bottom: 56px;
+     flex-wrap: wrap;
+     gap: 24px;
+ }
 
-        .users-text {
-          font-family: 'Lora', serif;
-          font-size: clamp(2rem, 4vw, 3rem);
-          font-weight: 600;
-          color: #1a1714;
-          line-height: 1.15;
-          margin: 0;
-          max-width: 480px;
-        }
+ .users-text {
+     font-weight: 700;
+     font-size: 54px;
+     line-height: 63.72px;
+     letter-spacing: 0%;
+     text-align: center;
+     color: #12100C;
 
-        .slider-controls {
-          display: flex;
-          gap: 12px;
-          align-items: center;
-          flex-shrink: 0;
-        }
+ }
 
-        .slider-btn {
-          width: 48px;
-          height: 48px;
-          border-radius: 50%;
-          border: 1.5px solid #1a1714;
-          background: transparent;
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          transition: background 0.2s, color 0.2s;
-          color: #1a1714;
-        }
+ .slider-controls {
+     display: flex;
+     gap: 12px;
+     align-items: center;
+     flex-shrink: 0;
+ }
 
-        .slider-btn:hover {
-          background: #1a1714;
-          color: #f7f5f2;
-        }
+ .slider-btn {
+     width: 48px;
+     height: 48px;
+     border-radius: 50%;
+     border: 1.5px solid #1a1714;
+     background: transparent;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: background 0.2s, color 0.2s;
+     color: #1a1714;
+ }
 
-        .slider-btn svg {
-          width: 18px;
-          height: 18px;
-          stroke: currentColor;
-          fill: none;
-          stroke-width: 2;
-          stroke-linecap: round;
-          stroke-linejoin: round;
-        }
+ .slider-btn:hover {
+     background: #1a1714;
+     color: #f7f5f2;
+ }
 
-        .cards-wrapper {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 20px;
-          overflow: hidden;
-        }
+ .slider-btn svg {
+     width: 18px;
+     height: 18px;
+     stroke: currentColor;
+     fill: none;
+     stroke-width: 2;
+     stroke-linecap: round;
+     stroke-linejoin: round;
+ }
 
-        @media (max-width: 900px) {
-          .cards-wrapper {
-            grid-template-columns: repeat(2, 1fr);
-          }
-        }
+ .cards-wrapper {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     overflow: hidden;
+ }
 
-        @media (max-width: 580px) {
-          .cards-wrapper {
-            grid-template-columns: 1fr;
-          }
-        }
+ @media (max-width: 900px) {
+     .cards-wrapper {
+         grid-template-columns: repeat(2, 1fr);
+     }
+ }
 
-        .user-card {
-          background: #fff;
-          border-radius: 16px;
-          padding: 28px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          gap: 24px;
-          box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-          animation: cardIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
-          min-height: 240px;
-        }
+ @media (max-width: 580px) {
+     .cards-wrapper {
+         grid-template-columns: 1fr;
+     }
+ }
 
-        @keyframes cardIn {
-          from {
-            opacity: 0;
-            transform: translateY(18px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
+ .user-card {
+     background: #fff;
+     border-radius: 16px;
+     padding: 28px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap: 24px;
+     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+     animation: cardIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+     min-height: 240px;
+ }
 
-        .card-quote {
-          font-size: 14.5px;
-          line-height: 1.7;
-          color: #3a3632;
-          font-weight: 300;
-          flex: 1;
-        }
+ @keyframes cardIn {
+     from {
+         opacity: 0;
+         transform: translateY(18px);
+     }
 
-        .card-author {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-        }
+     to {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
 
-        .card-avatar {
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 13px;
-          font-weight: 500;
-          color: #1a1714;
-          flex-shrink: 0;
-        }
+ .card-quote {
+     font-size: 14.5px;
+     line-height: 1.7;
+     color: #3a3632;
+     font-weight: 300;
+     flex: 1;
+ }
 
-        .card-info {
-          display: flex;
-          flex-direction: column;
-          gap: 1px;
-        }
+ .card-author {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+ }
 
-        .card-name {
-          font-size: 14px;
-          font-weight: 500;
-          color: #1a1714;
-        }
+ .card-avatar {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 13px;
+     font-weight: 500;
+     color: #1a1714;
+     flex-shrink: 0;
+ }
 
-        .card-role {
-          font-size: 12px;
-          color: #888;
-          font-weight: 300;
-        }
+ .card-info {
+     display: flex;
+     flex-direction: column;
+     gap: 1px;
+ }
 
-        .card-handle {
-          font-size: 12px;
-          color: #aaa;
-          font-weight: 300;
-        }
+ .card-name {
+     font-size: 14px;
+     font-weight: 500;
+     color: #1a1714;
+ }
 
-        .dots {
-          display: flex;
-          justify-content: center;
-          gap: 8px;
-          margin-top: 40px;
-        }
+ .card-role {
+     font-size: 12px;
+     color: #888;
+     font-weight: 300;
+ }
 
-        .dot {
-          width: 6px;
-          height: 6px;
-          border-radius: 50%;
-          background: #ccc;
-          transition: background 0.3s, width 0.3s;
-          cursor: pointer;
-        }
+ .card-handle {
+     font-size: 12px;
+     color: #aaa;
+     font-weight: 300;
+ }
 
-        .dot.active {
-          background: #1a1714;
-          width: 20px;
-          border-radius: 4px;
-        }
+ .dots {
+     display: flex;
+     justify-content: center;
+     gap: 8px;
+     margin-top: 40px;
+ }
+
+ .dot {
+     width: 6px;
+     height: 6px;
+     border-radius: 50%;
+     background: #ccc;
+     transition: background 0.3s, width 0.3s;
+     cursor: pointer;
+ }
+
+ .dot.active {
+     background: #1a1714;
+     width: 20px;
+     border-radius: 4px;
+ }
