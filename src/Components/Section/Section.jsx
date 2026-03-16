@@ -21,26 +21,26 @@ const Section = () => {
                         </div>
                         <div className="section-bottom">
 
-                        <div className="section-left">
-                            <h1 className="section-left-h1">
-Think CI/CD for dev environments
-                            </h1>
-                            <p className="section-left-info">
-We invented prebuilds so application code, configuration and <br />
-infrastructure can all be stored as machine-executable code <br /> 
-in your git repositories and applied to dev environments <br /> 
-automatically and continuously.
-                            </p>
-                            <div className="sectiob-buttons">
-                                <button className="section-left-btn">
-More on prebuilds
-                                </button>
-                                <button className="section-left-btn pink">
-Documentation
-                                </button>
+                            <div className="section-left">
+                                <h1 className="section-left-h1">
+                                    Think CI/CD for dev environments
+                                </h1>
+                                <p className="section-left-info">
+                                    We invented prebuilds so application code, configuration and <br />
+                                    infrastructure can all be stored as machine-executable code <br />
+                                    in your git repositories and applied to dev environments <br />
+                                    automatically and continuously.
+                                </p>
+                                <div className="sectiob-buttons">
+                                    <button className="section-left-btn">
+                                        More on prebuilds
+                                    </button>
+                                    <button className="section-left-btn pink">
+                                        Documentation
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <img src={SectionImg} alt="" className="section-img" />
+                            <img src={SectionImg} alt="" className="section-img" />
                         </div>
                     </div>
                 </div>
