@@ -6,6 +6,7 @@ import Section from './Components/Section/Section'
 import Design from './Components/Design/Design'
 import Users from './Components/Users/Users'
 import Started from './Components/Started/Started'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
     <Design />
     <Users />
     <Started />
+    <Footer />
     </>
   )
 }
