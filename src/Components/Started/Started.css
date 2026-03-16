@@ -1,0 +1,225 @@
+/* ============================================
+   STARTED SECTION
+   ============================================ */
+
+.started {
+  background-color: #f0f4ff;
+  padding: 60px 0;
+}
+
+.started .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.started-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.started-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 0;
+}
+
+/* ============================================
+   TWO SIDES LAYOUT
+   ============================================ */
+
+.sides {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* ============================================
+   SHARED SIDE TYPOGRAPHY
+   ============================================ */
+
+.side-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 10px 0;
+}
+
+.side-subtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: 0 0 28px 0;
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+/* ============================================
+   LEFT SIDE — GIT BUTTONS
+   ============================================ */
+
+.git-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 280px;
+  margin-bottom: 28px;
+}
+
+.git-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+  width: 100%;
+}
+
+.git-btn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.git-btn.gitlab {
+  background-color: #e24329;
+  color: #ffffff;
+}
+
+.git-btn.github {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.git-btn.bitbucket {
+  background-color: #0052cc;
+  color: #ffffff;
+}
+
+/* Icon placeholder — rasimni o'zingiz qo'yasiz */
+.git-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+
+.git-prefix-text {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0 0 8px 0;
+}
+
+.git-prefix-badge {
+  display: inline-block;
+  background-color: #fff8e6;
+  color: #b45309;
+  border: 1px solid #fcd34d;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+
+.workspace-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.workspace-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 4px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.workspace-item:last-child {
+  border-bottom: none;
+}
+
+.workspace-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.workspace-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.workspace-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.launch-btn {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  white-space: nowrap;
+}
+
+.launch-btn:hover {
+  background-color: #333333;
+  transform: translateY(-1px);
+}
+
+
+@media (max-width: 768px) {
+  .sides {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    padding: 28px 20px;
+  }
+
+  .started-text {
+    font-size: 1.5rem;
+  }
+}

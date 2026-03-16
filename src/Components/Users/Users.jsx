@@ -137,7 +137,7 @@ const intervalRef = useRef(null)  // jsx uchun
           </div>
         </div>
       </div>
-      <img src={Logos   } alt="" className="logos" />
+      <img src={Logos} alt="" className="logos" />
 </div>
     </>
   )
