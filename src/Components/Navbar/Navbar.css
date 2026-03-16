@@ -30,3 +30,28 @@ line-height: 20px;
 letter-spacing: 0%;
 
 }
+/* Planshet va telefonlar uchun */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column; /* Elementlarni ustun shakliga keltiradi */
+        gap: 20px;
+        text-align: center;
+    }
+
+    .navbar-list {
+        flex-direction: column; /* Linklar ham ustun bo'lib tiziladi */
+        gap: 15px;
+    }
+
+    .navbar-button {
+        width: 100%; /* Tugma ekran kengligi bo'ylab cho'ziladi */
+        max-width: 200px; /* Lekin haddan tashqari katta bo'lib ketmaydi */
+    }
+}
+
+/* Juda kichik ekranlar uchun qo'shimcha o'zgarish (optional) */
+@media (max-width: 480px) {
+    .navbar-link {
+        font-size: 14px; /* Shriftni biroz kichraytiramiz */
+    }
+}

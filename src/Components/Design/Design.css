@@ -37,3 +37,53 @@ color: #12100CB2;
 .design-button:hover{
     transform: scale(1.07);
 }
+/* Planshet va noutbuklar uchun (1024px dan kichik) */
+@media (max-width: 1024px) {
+    .design-text {
+        margin-top: 150px; /* 300px dan kamaytirildi */
+        font-size: 44px;
+        line-height: 56px;
+    }
+}
+
+/* Telefon va planshetlar uchun (768px dan kichik) */
+@media (max-width: 768px) {
+    .design-text {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .design-info {
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0 15px; /* Matn chekkalarga yopishib qolmasligi uchun */
+    }
+
+    .design-img {
+        width: 100%; /* Rasm ekrandan chiqib ketmasligi uchun */
+        height: auto;
+        max-width: 500px; /* Haddan tashqari katta bo'lib ketmasligi uchun */
+    }
+
+    .design-buttons {
+        flex-direction: column; /* Tugmalar ustma-ust tushadi */
+        gap: 20px;
+    }
+}
+
+/* Kichik telefonlar uchun (480px dan kichik) */
+@media (max-width: 480px) {
+    .design-text {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 60px;
+    }
+
+    .design-info {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}

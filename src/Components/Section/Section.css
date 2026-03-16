@@ -71,3 +71,53 @@
     position: relative;
     left: 20px;
 }
+/* Planshet va telefonlar uchun (992px gacha) */
+@media (max-width: 992px) {
+    .section-top {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .section-top-h1, 
+    .section-top-h2 {
+        font-size: 38px; /* 54px dan kichraytirildi */
+        line-height: 44px;
+    }
+
+    .section-bottom {
+        flex-direction: column; /* Chap va o'ng tomonni ustun shakliga o'tkazamiz */
+        text-align: center;
+        gap: 50px;
+    }
+
+    .section-left-info {
+        padding-bottom: 40px; /* 100px juda katta edi */
+    }
+
+    .pink {
+        left: 0; /* Surilishni olib tashlaymiz */
+    }
+}
+
+/* Kichik telefonlar uchun (480px gacha) */
+@media (max-width: 480px) {
+    .section-top-h1, 
+    .section-top-h2 {
+        font-size: 28px; /* Yana ham ixchamroq */
+        line-height: 34px;
+    }
+
+    .section-top {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .section-left-h1 {
+        font-size: 24px;
+    }
+
+    .section-left-info {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}

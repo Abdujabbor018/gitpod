@@ -57,3 +57,59 @@
     left: 10px;
     top: -20px;
 }
+/* Planshetlar uchun (768px dan kichik) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .header-main-text {
+        font-size: 50px; /* Shriftni kichraytirdik */
+        line-height: 56px;
+        padding-bottom: 30px;
+    }
+
+    .header-info {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    /* Relative surilishlarni bekor qilamiz */
+    .header-second-info {
+        left: 0;
+        bottom: 0;
+        margin-top: 20px;
+    }
+
+    .header-logos {
+        left: 0;
+        top: 0;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+/* Telefonlar uchun (480px dan kichik) */
+@media (max-width: 480px) {
+    .header-main-text {
+        font-size: 36px; /* Yanada kichikroq */
+        line-height: 42px;
+    }
+
+    .header-info {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .header-btn {
+        width: 100%; /* Tugma to'liq kenglikda */
+        max-width: 250px;
+    }
+
+    .header-logos {
+        gap: 15px;
+        flex-wrap: wrap; /* Logolar sig'masa pastga tushadi */
+    }
+}

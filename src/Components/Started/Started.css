@@ -70,9 +70,7 @@
   line-height: 1.5;
 }
 
-/* ============================================
-   LEFT SIDE — GIT BUTTONS
-   ============================================ */
+
 
 .git-buttons {
   display: flex;
@@ -208,18 +206,59 @@
   transform: translateY(-1px);
 }
 
-
+/* Planshet va telefonlar uchun */
 @media (max-width: 768px) {
-  .sides {
-    flex-direction: column;
-  }
+    .started {
+        padding: 40px 0; /* Bo'shliqni biroz kamaytirdik */
+    }
 
-  .left-side,
-  .right-side {
-    padding: 28px 20px;
-  }
+    .sides {
+        flex-direction: column;
+        gap: 16px; /* Kartalar orasidagi masofa */
+    }
 
-  .started-text {
-    font-size: 1.5rem;
-  }
+    .started-text {
+        font-size: 1.5rem; /* Siz yozgan o'lcham */
+        padding: 0 10px;
+    }
+
+    .left-side,
+    .right-side {
+        padding: 24px 16px; /* Ichki paddinglarni mobilga mosladik */
+        min-height: auto; /* Balandlikni kontentga qarab moslashuvchan qildik */
+    }
+
+    .side-subtitle {
+        max-width: 100%; /* Mobil ekranda matn to'liq kenglikni egallashi uchun */
+        font-size: 0.85rem;
+    }
+
+    .git-buttons {
+        max-width: 100%; /* Tugmalar ekranga to'liq yoyilishi uchun */
+    }
+
+    /* Ro'yxat elementlarini mobilga moslash */
+    .workspace-item {
+        padding: 12px 0; /* Bosish uchun qulayroq (touch-friendly) */
+    }
+
+    .launch-btn {
+        padding: 8px 12px; /* Tugma hajmini biroz ixchamlashtirdik */
+        font-size: 0.75rem;
+    }
+}
+
+/* Juda kichik ekranlar uchun (iPhone SE va shunga o'xshashlar) */
+@media (max-width: 400px) {
+    .workspace-info {
+        gap: 8px; /* Masofani kamaytirdik */
+    }
+
+    .workspace-name {
+        font-size: 0.85rem; /* Matn sig'ishi uchun */
+    }
+
+    .launch-btn {
+        padding: 6px 10px;
+    }
 }

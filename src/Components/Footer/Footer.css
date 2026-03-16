@@ -1,181 +1,244 @@
-/* ============================================
-   FOOTER
-   ============================================ */
+  /* ============================================
+    FOOTER
+    ============================================ */
 
-.footer {
-  background-color: #f4f4f4;
-  padding: 48px 0 24px;
-  border-top: 1px solid #e5e7eb;
-}
-
-.footer .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
-
-/* ============================================
-   LINKS GRID
-   ============================================ */
-
-.footer-links {
-  display: flex;
-  gap: 40px;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  padding-bottom: 40px;
-}
-
-.footer-col {
-  min-width: 140px;
-}
-
-.footer-col-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin: 0 0 16px 0;
-}
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer-col ul li a {
-  font-size: 0.875rem;
-  color: #4b5563;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.footer-col ul li a:hover {
-  color: #f97316;
-}
-
-/* ============================================
-   BOTTOM BAR
-   ============================================ */
-
-.footer-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 24px;
-  border-top: 1px solid #e5e7eb;
-}
-
-.footer-brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.footer-logo {
-  width: 32px;
-  height: 32px;
-  background-color: #f97316;
-  color: #ffffff;
-  font-weight: 800;
-  font-size: 1rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-copy {
-  font-size: 0.85rem;
-  color: #6b7280;
-}
-
-.footer-socials {
-  display: flex;
-  gap: 16px;
-}
-
-.footer-socials a {
-  color: #f97316;
-  font-size: 1.3rem;
-  transition: opacity 0.2s ease, transform 0.15s ease;
-  display: flex;
-  align-items: center;
-}
-
-.footer-socials a:hover {
-  opacity: 0.75;
-  transform: translateY(-2px);
-}
-
-/* ============================================
-   COOKIE BAR
-   ============================================ */
-
-.cookie-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #f9fafb;
-  border-top: 1px solid #e5e7eb;
-  padding: 14px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  z-index: 999;
-}
-
-.cookie-bar p {
-  font-size: 0.875rem;
-  color: #374151;
-  margin: 0;
-}
-
-.cookie-bar p a {
-  color: #3b82f6;
-  text-decoration: underline;
-}
-
-.cookie-bar button {
-  background-color: #ffffff;
-  border: 1px solid #d1d5db;
-  border-radius: 8px;
-  padding: 8px 20px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #1a1a1a;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background-color 0.2s ease;
-}
-
-.cookie-bar button:hover {
-  background-color: #f3f4f6;
-}
-
-/* ============================================
-   RESPONSIVE
-   ============================================ */
-
-@media (max-width: 768px) {
-  .footer-links {
-    gap: 28px;
+  .footer {
+    background-color: #f4f4f4;
+    padding: 48px 0 24px;
+    border-top: 1px solid #e5e7eb;
   }
+
+  .footer .container {
+    max-width: 1100px;    
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  /* ============================================
+    LINKS GRID
+    ============================================ */
+
+  .footer-links {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+
+  .footer-col {
+    min-width: 140px;
+  }
+
+  .footer-col-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 16px 0;
+  }
+
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-col ul li a {
+    font-size: 0.875rem;
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .footer-col ul li a:hover {
+    color: #f97316;
+  }
+
+  /* ============================================
+    BOTTOM BAR
+    ============================================ */
 
   .footer-bottom {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-logo {
+    width: 32px;
+    height: 32px;
+    background-color: #f97316;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-copy {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  .footer-socials {
+    display: flex;
     gap: 16px;
+  }
+
+  .footer-socials a {
+    color: #f97316;
+    font-size: 1.3rem;
+    transition: opacity 0.2s ease, transform 0.15s ease;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-socials a:hover {
+    opacity: 0.75;
+    transform: translateY(-2px);
+  }
+
+  /* ============================================
+    COOKIE BAR
+    ============================================ */
+
+  .cookie-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 999;
+  }
+
+  .cookie-bar p {
+    font-size: 0.875rem;
+    color: #374151;
+    margin: 0;
+  }
+
+  .cookie-bar p a {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+
+  .cookie-bar button {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+  }
+
+  .cookie-bar button:hover {
+    background-color: #f3f4f6;
+  }
+
+  /* ============================================
+    RESPONSIVE
+    ============================================ */
+
+  @media (max-width: 768px) {
+    .footer-links {
+      gap: 28px;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+
+    .cookie-bar {
+      flex-direction: column;
+      text-align: center;
+      padding: 16px 20px;
+    }
+  }
+  @media (max-width: 768px) {
+  /* Footer konteyner bo'shlig'ini moslaymiz */
+  .footer .container {
+    padding: 0 20px;
+  }
+
+  /* Linklar ustunlarini mobil ekran kengligi bo'yicha taqsimlaymiz */
+  .footer-links {
+    gap: 30px 20px; /* Qatorlar orasini biroz ochamiz */
+    justify-content: space-between;
+  }
+
+  .footer-col {
+    min-width: 45%; /* Telefonlarda 2 tadan ustun bo'lib chiqishi uchun */
+    flex-grow: 1;
+  }
+
+  /* Footer pastki qismi (Socials, Brand, Copy) */
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
     text-align: center;
   }
 
+  .footer-socials {
+    order: -1; /* Ijtimoiy tarmoq belgilarini tepaga chiqaramiz (mobil uchun yaxshi UX) */
+    justify-content: center;
+  }
+
+  .footer-brand {
+    justify-content: center;
+  }
+
+  /* Cookie Bar - mobil uchun ixchamlashtirish */
   .cookie-bar {
     flex-direction: column;
-    text-align: center;
+    gap: 12px;
     padding: 16px 20px;
+    text-align: center;
+  }
+
+  .cookie-bar p {
+    font-size: 0.8rem; /* Matnni biroz kichraytirdik */
+    line-height: 1.4;
+  }
+
+  .cookie-bar button {
+    width: 100%; /* Mobil telefonda tugmani bosish oson bo'lishi uchun */
+    padding: 12px;
+  }
+}
+
+/* Juda kichik ekranlar uchun (masalan, 400px dan kichik) */
+@media (max-width: 480px) {
+  .footer-col {
+    min-width: 100%; /* Linklar bir qatorda faqat bittadan ustun bo'ladi */
+    text-align: center;
+  }
+
+  .footer-col ul {
+    align-items: center;
   }
 }
